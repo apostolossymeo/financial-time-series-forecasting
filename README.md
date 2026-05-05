@@ -92,16 +92,11 @@ ruff check .
 
 | Figure | File | Why it matters |
 |---|---|---|
-| Price + volume | `results/price_volume.png` | Raw data sanity check |
-| Return distribution | `results/returns_distribution.png` | Tail-risk context |
-| Rolling risk | `results/rolling_risk.png` | Volatility/drawdown regimes |
-| Monthly returns | `results/monthly_returns_heatmap.png` | Market regime timeline |
-| Moving averages | `results/moving_averages.png` | Trend baseline context |
-| RSI | `results/rsi_regime.png` | Momentum/mean-reversion context |
-| MACD | `results/macd.png` | Momentum indicator behavior |
-| Feature correlation | `results/feature_correlation.png` | Feature redundancy check |
-| Baseline RMSE | `results/baseline_rmse.png` | Naive/SMA/EMA comparison |
-| Baseline predictions | `results/baseline_predictions.png` | Visual baseline quality check |
+| Forecast | `results/forecast.png` | Model vs actual price behavior |
+| Backtest | `results/backtest.png` | Strategy performance vs buy & hold |
+| Loss | `results/loss.png` | Training and validation convergence |
+| Residuals | `results/residuals.png` | Error structure and bias detection |
+| Drawdown | `results/drawdown.png` | Risk profile and worst-case losses |
+| Error histogram | `results/error_hist.png` | Distribution of prediction errors |
 
-See `docs/figures.md` for the full figure guide.
 
